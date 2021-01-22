@@ -1,0 +1,330 @@
+nav{
+      display: flex;
+      color: white;
+      background-color: rgb(0, 0, 0);
+      justify-content: center;
+      height: 55px;
+}
+nav .logo{
+      padding-top: 5px;
+      font-size: 30px;
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 5px;
+}
+
+nav .list ul{
+      display: flex;
+      list-style: none;
+      text-decoration: none;
+}
+
+nav .list ul li{
+      padding-left: 20px;
+}
+nav .list ul li:hover{
+      text-decoration: underline;
+      color: red;
+     
+}
+
+nav .input{
+      padding-left: 30px;
+      padding-top: 13px;
+      
+}
+nav .input input{
+      height: 20px;
+      width: 400px;
+      outline: none;
+      padding-left: 10px;
+}
+
+
+nav .account ul{
+      display: flex;
+      list-style: none;
+}
+nav .account ul li{
+      padding-left: 30px;
+}
+.nav2 ul{
+      background-color: rgb(255, 255, 255);
+      list-style: none;
+      display: flex;
+      height: 50px;
+      justify-content: center;
+      margin-top: 0px;
+
+}
+.nav2 ul li{
+      padding-top: 10px;
+      padding-left: 35px;
+}
+.nav2 ul li:hover{
+      text-decoration: underline;
+      color: red;
+}
+
+/*konten*/
+ .content{
+       background-color: rgb(250, 250, 250);
+       margin: auto;
+       width: 1080px;
+ }
+
+.content .line1{
+      display: flex;
+      justify-content: center;
+}
+
+.content .line1 .cl1{
+      position: relative;
+}
+.content .line1 .cl1 .button{
+      position: absolute;
+     bottom: 1.5em;
+   display: flex;
+   justify-content: center;
+     color: black;
+     width: 100%;
+     
+
+
+}
+.content .line1 .cl1 .button button{
+      background-color: #fff;
+      outline: none;
+      height: 40px;
+      width: 70%;
+
+}
+.content .line1 .cl1 .button button:hover{
+      background-color: black;
+      color: white;
+      font-size: 15px;
+}
+
+
+.content .line1 .cl1 img{
+      height: 450px;
+      width: 350px;
+}
+
+.content .line1 .cl1{
+      padding-left: 10px;
+      padding-top: 20px;
+}
+
+/* Brand */
+.featuresBrans{
+      justify-content: center;
+      text-align: center;
+      font-size: 30px;
+      margin-top: 50px;
+      font-weight: bold;
+}
+
+.content .brand{
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+}
+
+.content .brand .logo img{
+      height: 60px;
+      width: 80px;
+     padding-left: 20px;
+      padding-top: 30px;
+}
+
+/* paragraf */
+.content .paragraf p{
+      margin-top: 50px;
+justify-content: center;
+padding-left: 20px;
+padding-right: 20px;
+margin-bottom: 80px;
+font-family: 'Open Sans', sans-serif;;
+}
+
+.content .populer{
+      display: flex;
+      justify-content: center;
+}
+.populer .pencarianPopuler{
+      margin-right: 100px;
+}
+.populer .pencarianPopuler table tr td:hover{
+      text-decoration:underline;
+      color:red;
+}
+.populer .brandPopuler table tr td:hover{
+      text-decoration:underline;
+      color:red;
+}
+.populer .pencarianPopuler table{
+      border-spacing: 30px;
+}
+.populer .brandPopuler table{
+      border-spacing: 30px;
+}
+strong{
+      margin-left: 30px;
+}
+
+footer .foter{
+      display: flex;
+      background-color: rgb(5, 5, 5);
+      width: 100%;
+      height: 700px;
+      color: white;
+      padding-top: 40px;
+      padding-left: 40px;
+
+}
+footer .foter .zalora{
+      justify-content: center;
+      width: 31%;
+      text-align: justify;
+}
+footer .foter .zalora .title #satu{
+      font-size: 50px;
+      margin-top: 20px;
+      font-family: 'Montserrat', sans-serif;;
+}
+footer .foter .about{
+      justify-content: center;
+      width: 15%;
+      text-align: justify;
+      padding-left: 25px;
+}
+footer .foter .about p{
+      font-size: 25px;
+}
+footer .foter .layanan{
+      justify-content: center;
+      width: 15%;
+      text-align: justify;
+      padding-left: 25px;
+
+}
+footer .foter .layanan p{
+      font-size: 25px;
+}
+
+footer .foter .memberBaru{
+      justify-content: center;
+      width: 31%;
+      text-align: justify;
+      padding-left: 25px;
+
+}
+footer .foter .memberBaru .member input{
+      width: 400px;
+      height: 30px;
+      margin-top: 10px;
+      outline: none;
+}
+
+footer .foter .memberBaru p{
+font-size: 25px;
+}
+footer .foter .memberBaru .kelamin{
+      justify-content: center;
+      width: 100%;
+}
+footer .foter .memberBaru .kelamin #pria{
+      margin-right: 43px;
+}
+footer .foter .memberBaru .kelamin button{
+      width: 180px;
+      height: 35px;
+      border-color: white;
+      color: white;   
+      background-color: black;  
+      margin-bottom: 50px;      
+}
+footer .foter .memberBaru .kelamin button:hover{
+      background-color: white;
+      color: black;
+}
+footer .foter .memberBaru .downloadApk{
+      margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* sosial media */
+footer .foter .zalora .socialMedia {
+      margin-top: 80px;
+}
+footer .foter .zalora .socialMedia ul{
+      display: flex;
+      margin-left: -50px;
+     
+}
+footer .foter .zalora .socialMedia ul li{
+    padding-right: 20px;
+      list-style: none;     
+      padding-top: 20px;
+}
+footer .foter .zalora .socialMedia ul li img{
+      width: 30px;
+      height: 30px;
+}
+footer .foter .zalora .bantuan {
+      margin-top: 50px;
+}
+footer .foter .zalora .bantuan ul {
+      display: flex;
+      list-style: none;
+
+}
+footer .foter .zalora .bantuan ul li{
+      margin-left: -40px;
+}
+footer .foter .zalora .bantuan ul #satu{
+      margin-right: 10px;
+}
+footer .foter .zalora .bantuan ul #dua{
+      margin-left: 10px;
+}
+footer .foter .zalora .bantuan ul li:hover{
+      color: red;
+      text-decoration: underline;
+}
+
+
+
+/* memberbaru */
+footer .foter .memberBaru .apk{
+      display: flex;
+      margin-bottom: 50px;
+}
+footer .foter .memberBaru .apk .playstore img{
+      width: 150px;
+      height: 50px;
+}
+footer .foter .memberBaru .apk .appstore img{
+      width: 150px;
+      height: 50px;
+
+}
+footer .foter .memberBaru .last ul {
+      display: flex;
+}
+footer .foter .memberBaru .last ul li{
+      list-style: none;
+      margin-left: -40px;     
+}
+footer .foter .memberBaru .last ul li:hover{
+      text-decoration: underline;
+      color: red;
+}
+footer .foter .memberBaru .last ul #dua{
+      padding-left: 50px;
+      padding-right:50px ;
+}
